@@ -1,0 +1,132 @@
+------- Example Run with choice 1 --------------
+
+Welcome to Huffman Compressor!
+
+Which file would you like to work with (it must be a txt file)? spec-simple-example.txt
+
+Would you like to:
+	(1) Make a huffman code,
+	(2) Compress a file,
+	(3) Decompress a file, or
+	(4) Do a compression followed by a decompression.
+Type a number from 1 through 4 : 1
+I am about to make the Huffman code for spec-simple-example.txt...
+	I built up a frequency table of the characters in your file.
+	Now, I'm going to call your HuffmanCode(int[]) constructor using that frequency table.
+	Okay!  Now, I am going to save the code (using your save method) to the file spec-simple-example.code!
+...I am done making the Huffman Code!
+
+------- Example Run with choice 2 debug = true --------------
+
+Welcome to Huffman Compressor!
+
+Which file would you like to work with (it must be a txt file)? spec-simple-example.txt
+
+Would you like to:
+	(1) Make a huffman code,
+	(2) Compress a file,
+	(3) Decompress a file, or
+	(4) Do a compression followed by a decompression.
+Type a number from 1 through 4 : 2
+Would you like to debug the compressed file (y/n)? y
+I am about to attempt to COMPRESS spec-simple-example.txt:
+I am about to make the Huffman code for spec-simple-example.txt...
+	I built up a frequency table of the characters in your file.
+	Now, I'm going to call your HuffmanCode(int[]) constructor using that frequency table.
+	Okay!  Now, I am going to save the code (using your save method) to the file spec-simple-example.code!
+...I am done making the Huffman Code!
+	Now that I have the Huffman Code, I am going to use the huffman code file created by
+	your save() method to compress the contents into spec-simple-example.short.debug!
+1101110111010110011000...I am done compressing the file
+
+------- Example Run with choice 2 debug = false --------------
+
+Welcome to Huffman Compressor!
+
+Which file would you like to work with (it must be a txt file)? spec-simple-example.txt
+
+Would you like to:
+	(1) Make a huffman code,
+	(2) Compress a file,
+	(3) Decompress a file, or
+	(4) Do a compression followed by a decompression.
+Type a number from 1 through 4 : 2
+Would you like to debug the compressed file (y/n)? n
+I am about to attempt to COMPRESS spec-simple-example.txt:
+I am about to make the Huffman code for spec-simple-example.txt...
+	I built up a frequency table of the characters in your file.
+	Now, I'm going to call your HuffmanCode(int[]) constructor using that frequency table.
+	Okay!  Now, I am going to save the code (using your save method) to the file spec-simple-example.code!
+...I am done making the Huffman Code!
+	Now that I have the Huffman Code, I am going to use the huffman code file created by
+	your save() method to compress the contents into spec-simple-example.short!
+...I am done compressing the file
+
+------- Example Run with choice 3 result = console --------------
+
+Welcome to Huffman Compressor!
+
+Which file would you like to work with (it must be a txt file)? spec-simple-example.txt
+
+Would you like to:
+	(1) Make a huffman code,
+	(2) Compress a file,
+	(3) Decompress a file, or
+	(4) Do a compression followed by a decompression.
+Type a number from 1 through 4 : 3
+Would you like to print the result to a file (y/n)? n
+I am about to attempt to DECOMPRESS spec-simple-example.short:
+	To do this, I must first read in the huffman code used to compress the file.
+	I will use your HuffmanCode(Scanner) constructor!
+	Now, I will decompress the file using your translate() method and display it on the console
+aba ab cabbb
+
+------- Example Run with choice 3 result = file --------------
+
+Welcome to Huffman Compressor!
+
+Which file would you like to work with (it must be a txt file)? spec-simple-example.txt
+
+Would you like to:
+	(1) Make a huffman code,
+	(2) Compress a file,
+	(3) Decompress a file, or
+	(4) Do a compression followed by a decompression.
+Type a number from 1 through 4 : 3
+Would you like to print the result to a file (y/n)? y
+I am about to attempt to DECOMPRESS spec-simple-example.short:
+	To do this, I must first read in the huffman code used to compress the file.
+	I will use your HuffmanCode(Scanner) constructor!
+	Now, I will decompress the file using your translate() method and save
+	the output into spec-simple-example.new
+...I am done decompressing the file
+
+------- Example Run with choice 4 result = file --------------
+
+Welcome to Huffman Compressor!
+
+Which file would you like to work with (it must be a txt file)? spec-simple-example.txt
+
+Would you like to:
+	(1) Make a huffman code,
+	(2) Compress a file,
+	(3) Decompress a file, or
+	(4) Do a compression followed by a decompression.
+Type a number from 1 through 4 : 4
+Would you like to print the result to a file (y/n)? y
+I am about to attempt to COMPRESS spec-simple-example.txt:
+I am about to make the Huffman code for spec-simple-example.txt...
+	I built up a frequency table of the characters in your file.
+	Now, I'm going to call your HuffmanCode(int[]) constructor using that frequency table.
+	Okay!  Now, I am going to save the code (using your save method) to the file spec-simple-example.code!
+...I am done making the Huffman Code!
+	Now that I have the Huffman Code, I am going to use the huffman code file created by
+	your save() method to compress the contents into spec-simple-example.short!
+...I am done compressing the file
+I am about to attempt to DECOMPRESS spec-simple-example.short:
+	To do this, I must first read in the huffman code used to compress the file.
+	I will use your HuffmanCode(Scanner) constructor!
+	Now, I will decompress the file using your translate() method and save
+	the output into spec-simple-example.new
+...I am done decompressing the file
+
